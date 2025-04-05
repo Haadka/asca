@@ -1,3 +1,4 @@
+import { setupDevPlatform } from '@cloudflare/next-on-pages/next-dev';
 let userConfig = undefined
 try {
   // try to import ESM first
@@ -46,6 +47,9 @@ if (userConfig) {
       nextConfig[key] = config[key]
     }
   }
+}
+if (process.env.NODE_ENV === 'development') {
+  await setupDevPlatform();
 }
 
 export default nextConfig
