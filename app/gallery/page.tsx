@@ -29,7 +29,7 @@ export default function ContactPage() {
             </p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-            {[...Array(26)].map((_, index) => (
+            {[...Array(28)].map((_, index) => (
               <div key={index} className="relative h-64 rounded-lg overflow-hidden shadow-md">
                 <Image
                   src={`/asca-(${index + 1}).jpeg`}
