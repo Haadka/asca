@@ -285,9 +285,11 @@ export default function Home() {
           </div>
 
           <div className="text-center mt-12">
-            <Button className="bg-secondary hover:bg-secondary/90">
-              View Full Gallery <ChevronRight className="ml-2 h-4 w-4" />
-            </Button>
+            <Link href="/gallery" className="text-white">
+              <Button className="bg-secondary hover:bg-secondary/90">
+                View Full Gallery <ChevronRight className="ml-2 h-4 w-4" />
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
