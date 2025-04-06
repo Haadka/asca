@@ -32,33 +32,17 @@ export function SiteHeader() {
           <Link href="/about" className="text-white hover:text-accent transition-colors font-medium">
             About Us
           </Link>
-          <Link href="/events" className="text-white hover:text-accent transition-colors font-medium">
+          <Link target="_blank" href="https://www.facebook.com/ascaust/events" className="text-white hover:text-accent transition-colors font-medium">
             Events
           </Link>
           <Link href="/gallery" className="text-white hover:text-accent transition-colors font-medium">
             Gallery
           </Link>
-          <Link href="/resources" className="text-white hover:text-accent transition-colors font-medium">
-            Resources
-          </Link>
+
           <Link href="/contact" className="text-white hover:text-accent transition-colors font-medium">
             Contact
           </Link>
 
-          <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-              <Button variant="ghost" size="icon" className="text-white hover:text-accent hover:bg-primary">
-                <Globe className="h-5 w-5" />
-                <span className="sr-only">Language</span>
-              </Button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent align="end">
-              <DropdownMenuItem>English</DropdownMenuItem>
-              <DropdownMenuItem>Somali</DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
-
-          <Button className="bg-secondary hover:bg-secondary/90">Join Us</Button>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -114,19 +98,6 @@ export function SiteHeader() {
             >
               Contact
             </Link>
-
-            <div className="flex items-center gap-4 pt-2 border-t border-primary-foreground/10 mt-2">
-              <Button variant="ghost" size="sm" className="text-white hover:text-accent hover:bg-primary">
-                <Globe className="h-4 w-4 mr-2" />
-                English
-              </Button>
-              <Button variant="ghost" size="sm" className="text-white hover:text-accent hover:bg-primary">
-                <Globe className="h-4 w-4 mr-2" />
-                Somali
-              </Button>
-            </div>
-
-            <Button className="bg-secondary hover:bg-secondary/90 mt-2">Join Us</Button>
           </nav>
         </div>
       )}

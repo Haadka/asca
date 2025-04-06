@@ -6,7 +6,7 @@ export function SiteFooter() {
   return (
     <footer className="bg-primary text-white">
       <div className="container py-12">
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
           <div>
             <div className="mb-4">
               <ASCALogo className="text-white" />
@@ -15,21 +15,9 @@ export function SiteFooter() {
               The Association of Somaliland Community in Australia - Bridging Cultures, Building Community.
             </p>
             <div className="flex space-x-4">
-              <Link href="#" className="text-primary-foreground/80 hover:text-accent transition-colors">
+              <Link href="https://www.facebook.com/ascaust/" className="text-primary-foreground/80 hover:text-accent transition-colors">
                 <Facebook className="h-5 w-5" />
                 <span className="sr-only">Facebook</span>
-              </Link>
-              <Link href="#" className="text-primary-foreground/80 hover:text-accent transition-colors">
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
-              </Link>
-              <Link href="#" className="text-primary-foreground/80 hover:text-accent transition-colors">
-                <Instagram className="h-5 w-5" />
-                <span className="sr-only">Instagram</span>
-              </Link>
-              <Link href="#" className="text-primary-foreground/80 hover:text-accent transition-colors">
-                <Youtube className="h-5 w-5" />
-                <span className="sr-only">YouTube</span>
               </Link>
             </div>
           </div>
@@ -43,7 +31,7 @@ export function SiteFooter() {
                 </Link>
               </li>
               <li>
-                <Link href="/events" className="text-primary-foreground/80 hover:text-accent transition-colors">
+                <Link target="_blank" href="https://www.facebook.com/ascaust/events" className="text-primary-foreground/80 hover:text-accent transition-colors">
                   Events
                 </Link>
               </li>
@@ -52,11 +40,7 @@ export function SiteFooter() {
                   Gallery
                 </Link>
               </li>
-              <li>
-                <Link href="/resources" className="text-primary-foreground/80 hover:text-accent transition-colors">
-                  Resources
-                </Link>
-              </li>
+
               <li>
                 <Link href="/contact" className="text-primary-foreground/80 hover:text-accent transition-colors">
                   Contact Us
@@ -65,7 +49,7 @@ export function SiteFooter() {
             </ul>
           </div>
 
-          <div>
+          {/* <div>
             <h3 className="font-serif text-lg font-bold mb-4">Community</h3>
             <ul className="space-y-2">
               <li>
@@ -94,9 +78,9 @@ export function SiteFooter() {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
 
-          <div>
+          {/* <div>
             <h3 className="font-serif text-lg font-bold mb-4">Contact Us</h3>
             <ul className="space-y-3">
               <li className="flex items-start">
@@ -112,19 +96,19 @@ export function SiteFooter() {
                 <span className="text-primary-foreground/80">info@ascaustralia.org</span>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
 
         <div className="mt-8 pt-8 border-t border-primary-foreground/10 text-center text-primary-foreground/60 text-sm">
           <p>© {new Date().getFullYear()} Association of Somaliland Community in Australia. All rights reserved.</p>
-          <div className="mt-2 flex justify-center space-x-4">
+          {/* <div className="mt-2 flex justify-center space-x-4">
             <Link href="/privacy" className="hover:text-accent transition-colors">
               Privacy Policy
             </Link>
             <Link href="/terms" className="hover:text-accent transition-colors">
               Terms of Service
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

@@ -8,7 +8,7 @@ interface LogoProps {
 
 export function ASCALogo({ className = "", showText = true, size = "md" }: LogoProps) {
   const sizes = {
-    sm: { width: 40, height: 40 },
+    sm: { width: 80, height: 80 },
     md: { width: 60, height: 60 },
     lg: { width: 120, height: 120 },
   }

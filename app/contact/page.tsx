@@ -28,7 +28,7 @@ export default function ContactPage() {
               </p>
 
               <div className="space-y-6">
-                <div className="flex items-start">
+                {/* <div className="flex items-start">
                   <div className="mr-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
                     <MapPin className="h-6 w-6 text-primary" />
                   </div>
@@ -36,7 +36,7 @@ export default function ContactPage() {
                     <h3 className="text-lg font-medium text-primary">Address</h3>
                     <p className="text-foreground">123 Community Street, Melbourne, VIC 3000, Australia</p>
                   </div>
-                </div>
+                </div> */}
 
                 <div className="flex items-start">
                   <div className="mr-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
@@ -44,11 +44,11 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-lg font-medium text-primary">Email</h3>
-                    <p className="text-foreground">info@ascaustralia.org</p>
+                    <p className="text-foreground">info@ascaust.com.au</p>
                   </div>
                 </div>
 
-                <div className="flex items-start">
+                {/* <div className="flex items-start">
                   <div className="mr-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
                     <Phone className="h-6 w-6 text-primary" />
                   </div>
@@ -56,45 +56,25 @@ export default function ContactPage() {
                     <h3 className="text-lg font-medium text-primary">Phone</h3>
                     <p className="text-foreground">+61 3 1234 5678</p>
                   </div>
-                </div>
+                </div> */}
               </div>
 
               <div className="mt-8">
                 <h3 className="text-lg font-medium text-primary mb-4">Follow Us</h3>
                 <div className="flex space-x-4">
                   <Link
-                    href="#"
+                    href="https://www.facebook.com/ascaust/"
                     className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-white transition-colors"
                   >
                     <Facebook className="h-5 w-5" />
                     <span className="sr-only">Facebook</span>
                   </Link>
-                  <Link
-                    href="#"
-                    className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-white transition-colors"
-                  >
-                    <Twitter className="h-5 w-5" />
-                    <span className="sr-only">Twitter</span>
-                  </Link>
-                  <Link
-                    href="#"
-                    className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-white transition-colors"
-                  >
-                    <Instagram className="h-5 w-5" />
-                    <span className="sr-only">Instagram</span>
-                  </Link>
-                  <Link
-                    href="#"
-                    className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-white transition-colors"
-                  >
-                    <Youtube className="h-5 w-5" />
-                    <span className="sr-only">YouTube</span>
-                  </Link>
+
                 </div>
               </div>
             </div>
 
-            <div>
+            {/* <div>
               <form className="space-y-6 bg-white p-8 rounded-lg shadow-md border border-border">
                 <div className="grid gap-6 md:grid-cols-2">
                   <div>
@@ -154,27 +134,11 @@ export default function ContactPage() {
 
                 <Button className="w-full bg-secondary hover:bg-secondary/90">Send Message</Button>
               </form>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
 
-      {/* Map Section */}
-      <section className="py-16 bg-muted">
-        <div className="container">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold tracking-tight mb-4 text-primary">Our Location</h2>
-            <p className="max-w-2xl mx-auto text-lg text-foreground">Visit our community center in Melbourne</p>
-          </div>
-
-          <div className="relative h-[400px] w-full rounded-lg overflow-hidden shadow-lg">
-            {/* Placeholder for a map - in a real implementation, this would be a Google Maps or similar embed */}
-            <div className="absolute inset-0 bg-primary/10 flex items-center justify-center">
-              <p className="text-lg font-medium text-primary">Map will be displayed here</p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Office Hours Section */}
       <section className="py-16 bg-white">

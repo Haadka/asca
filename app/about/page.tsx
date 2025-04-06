@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { ChevronRight } from "lucide-react"
 
+
 import { Button } from "@/components/ui/button"
 
 export default function AboutPage() {
@@ -112,28 +113,19 @@ export default function AboutPage() {
             <div className="space-y-8">
               <div className="relative pl-10 border-l-2 border-primary/30">
                 <div className="absolute left-[-8px] top-0 h-4 w-4 rounded-full bg-primary"></div>
-                <h3 className="text-xl font-bold mb-2 text-primary">Founding (2010)</h3>
+                <h3 className="text-xl font-bold mb-2 text-primary">Founding (2022)</h3>
                 <p className="text-foreground">
-                  ASCA was established by a small group of Somaliland immigrants in Melbourne who recognized the need
+                  ASCA was established by a small group of Asutralian Somalilanders in Melbourne who recognized the need
                   for a community organization to preserve cultural identity and provide support to new arrivals.
                 </p>
               </div>
 
               <div className="relative pl-10 border-l-2 border-primary/30">
                 <div className="absolute left-[-8px] top-0 h-4 w-4 rounded-full bg-primary"></div>
-                <h3 className="text-xl font-bold mb-2 text-primary">Growth & Development (2010-2015)</h3>
+                <h3 className="text-xl font-bold mb-2 text-primary">Growth & Development (2022-2024)</h3>
                 <p className="text-foreground">
                   During these formative years, ASCA expanded its membership and established key programs including
-                  language classes, cultural events, and community support services.
-                </p>
-              </div>
-
-              <div className="relative pl-10 border-l-2 border-primary/30">
-                <div className="absolute left-[-8px] top-0 h-4 w-4 rounded-full bg-primary"></div>
-                <h3 className="text-xl font-bold mb-2 text-primary">Expansion Across Australia (2015-2020)</h3>
-                <p className="text-foreground">
-                  ASCA established chapters in Sydney, Brisbane, and Perth, creating a national network to serve the
-                  growing Somaliland diaspora throughout Australia.
+                  18 May celebrations, cultural events, and community support services.
                 </p>
               </div>
 
@@ -163,10 +155,10 @@ export default function AboutPage() {
           <div className="grid gap-8 md:grid-cols-3">
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
               <div className="relative h-40 w-40 mx-auto mb-4 overflow-hidden rounded-full">
-                <Image src="/placeholder.svg?height=160&width=160" alt="Chairperson" fill className="object-cover" />
+                <Image src="/pres.png?height=160&width=160" alt="Chairperson" fill className="object-cover" />
               </div>
-              <h3 className="text-xl font-bold mb-1 text-primary">Ahmed Hassan</h3>
-              <p className="text-secondary font-medium mb-3">Chairperson</p>
+              <h3 className="text-xl font-bold mb-1 text-primary">Ahmed Shawky</h3>
+              <p className="text-secondary font-medium mb-3">President</p>
               <p className="text-foreground text-sm">
                 Leading ASCA's mission to preserve Somaliland culture and support our community in Australia.
               </p>
@@ -175,14 +167,14 @@ export default function AboutPage() {
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
               <div className="relative h-40 w-40 mx-auto mb-4 overflow-hidden rounded-full">
                 <Image
-                  src="/placeholder.svg?height=160&width=160"
+                  src="/vice.png?height=160&width=160"
                   alt="Vice Chairperson"
                   fill
                   className="object-cover"
                 />
               </div>
-              <h3 className="text-xl font-bold mb-1 text-primary">Amina Omar</h3>
-              <p className="text-secondary font-medium mb-3">Vice Chairperson</p>
+              <h3 className="text-xl font-bold mb-1 text-primary">Hamza Mohamed</h3>
+              <p className="text-secondary font-medium mb-3">Vice President</p>
               <p className="text-foreground text-sm">
                 Coordinating ASCA's programs and initiatives to strengthen our community connections.
               </p>
@@ -190,9 +182,9 @@ export default function AboutPage() {
 
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
               <div className="relative h-40 w-40 mx-auto mb-4 overflow-hidden rounded-full">
-                <Image src="/placeholder.svg?height=160&width=160" alt="Secretary" fill className="object-cover" />
+                <Image src="/sec.png?height=160&width=160" alt="Secretary" fill className="object-cover" />
               </div>
-              <h3 className="text-xl font-bold mb-1 text-primary">Mohamed Ali</h3>
+              <h3 className="text-xl font-bold mb-1 text-primary">Hamza Kilas</h3>
               <p className="text-secondary font-medium mb-3">Secretary</p>
               <p className="text-foreground text-sm">
                 Managing ASCA's communications and administrative functions to serve our members effectively.
@@ -200,32 +192,15 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <div className="text-center mt-12">
+          {/* <div className="text-center mt-12">
             <Button className="bg-secondary hover:bg-secondary/90">
               Meet Our Full Team <ChevronRight className="ml-2 h-4 w-4" />
             </Button>
-          </div>
+          </div> */}
         </div>
       </section>
 
-      {/* Call to Action */}
-      <section className="py-16 bg-primary text-white">
-        <div className="container text-center">
-          <h2 className="text-3xl font-bold mb-6">Join Our Community</h2>
-          <p className="max-w-2xl mx-auto text-lg mb-8">
-            Become a member of ASCA today and help us preserve Somaliland culture while building a stronger community in
-            Australia.
-          </p>
-          <div className="flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 justify-center">
-            <Button size="lg" className="bg-white text-primary hover:bg-white/90">
-              Become a Member
-            </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
-              Contact Us
-            </Button>
-          </div>
-        </div>
-      </section>
+
     </div>
   )
 }
