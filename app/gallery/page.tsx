@@ -32,7 +32,7 @@ export default function ContactPage() {
             {[...Array(26)].map((_, index) => (
               <div key={index} className="relative h-64 rounded-lg overflow-hidden shadow-md">
                 <Image
-                  src={`/asca- (${index + 1}).jpeg`}
+                  src={`/asca-(${index + 1}).jpeg`}
                   alt={`Event image ${index + 1}`}
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-300"
