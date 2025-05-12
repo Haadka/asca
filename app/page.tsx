@@ -428,7 +428,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="text-lg font-medium text-primary">Phone</h3>
-                    {/* <p className="text-foreground">+61 3 1234 5678</p> */}
+                    <p className="text-foreground">04 5253 4377</p>
                   </div>
                 </div>
               </div>

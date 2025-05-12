@@ -28,15 +28,15 @@ export default function ContactPage() {
               </p>
 
               <div className="space-y-6">
-                {/* <div className="flex items-start">
+                <div className="flex items-start">
                   <div className="mr-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
                     <MapPin className="h-6 w-6 text-primary" />
                   </div>
                   <div>
                     <h3 className="text-lg font-medium text-primary">Address</h3>
-                    <p className="text-foreground">123 Community Street, Melbourne, VIC 3000, Australia</p>
+                    <p className="text-foreground">Entry B or C, 12 Dimboola Road, Broadmeadows VIC, 3047</p>
                   </div>
-                </div> */}
+                </div>
 
                 <div className="flex items-start">
                   <div className="mr-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
@@ -48,15 +48,15 @@ export default function ContactPage() {
                   </div>
                 </div>
 
-                {/* <div className="flex items-start">
+                <div className="flex items-start">
                   <div className="mr-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
                     <Phone className="h-6 w-6 text-primary" />
                   </div>
                   <div>
                     <h3 className="text-lg font-medium text-primary">Phone</h3>
-                    <p className="text-foreground">+61 3 1234 5678</p>
+                    <p className="text-foreground">04 5253 4377</p>
                   </div>
-                </div> */}
+                </div>
               </div>
 
               <div className="mt-8">

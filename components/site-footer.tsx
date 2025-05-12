@@ -80,23 +80,23 @@ export function SiteFooter() {
             </ul>
           </div> */}
 
-          {/* <div>
+          <div>
             <h3 className="font-serif text-lg font-bold mb-4">Contact Us</h3>
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-2 text-accent shrink-0 mt-0.5" />
-                <span className="text-primary-foreground/80">123 Community Street, Melbourne, VIC 3000, Australia</span>
+                <span className="text-primary-foreground/80">Entry B or C, 12 Dimboola Road, Broadmeadows VIC, 3047</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-2 text-accent shrink-0" />
-                <span className="text-primary-foreground/80">+61 3 1234 5678</span>
+                <span className="text-primary-foreground/80">04 5253 4377</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2 text-accent shrink-0" />
                 <span className="text-primary-foreground/80">info@ascaustralia.org</span>
               </li>
             </ul>
-          </div> */}
+          </div>
         </div>
 
         <div className="mt-8 pt-8 border-t border-primary-foreground/10 text-center text-primary-foreground/60 text-sm">
