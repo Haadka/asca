@@ -20,6 +20,8 @@
     --muted-foreground: 0 0% 40%;
 
     --border: 210 20% 91%;
+    --destructive: 0 84% 60%;
+    /* Added for light theme */
   }
 
   .dark {
@@ -39,6 +41,8 @@
     --muted-foreground: 0 0% 70%;
 
     --border: 210 20% 30%;
+    --destructive: 0 70% 50%;
+    /* Added for dark theme */
   }
 }
 
@@ -46,9 +50,11 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground font-sans;
   }
+
   h1,
   h2,
   h3,
@@ -78,4 +84,3 @@
   height: 8px;
   background: linear-gradient(90deg, #006400 33.3%, #c41e3a 33.3%, #c41e3a 66.6%, #ffd700 66.6%);
 }
-

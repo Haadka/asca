@@ -32,6 +32,12 @@ export function SiteHeader() {
           <Link href="/about" className="text-white hover:text-accent transition-colors font-medium">
             About Us
           </Link>
+          <Link href="/#whatson" className="text-white hover:text-accent transition-colors font-medium">
+            What's On
+          </Link>
+          <Link href="/membership" className="text-white hover:text-accent transition-colors font-medium">
+            Membership
+          </Link>
           <Link target="_blank" href="https://www.facebook.com/ascaust/events" className="text-white hover:text-accent transition-colors font-medium">
             Events
           </Link>
@@ -69,6 +75,20 @@ export function SiteHeader() {
               onClick={() => setIsMenuOpen(false)}
             >
               About Us
+            </Link>
+            <Link
+              href="/#whatson"
+              className="text-white hover:text-accent py-2 transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              What's On
+            </Link>
+            <Link
+              href="/membership"
+              className="text-white hover:text-accent py-2 transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Membership
             </Link>
             <Link
               href="/events"
