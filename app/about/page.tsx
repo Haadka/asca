@@ -173,8 +173,8 @@ export default function AboutPage() {
                   className="object-cover"
                 />
               </div>
-              <h3 className="text-xl font-bold mb-1 text-primary">Hamza Mohamed</h3>
-              <p className="text-secondary font-medium mb-3">Vice President</p>
+              <h3 className="text-xl font-bold mb-1 text-primary">Hamse Mohamud Mohamed (Hamse Afyare)</h3>
+              <p className="text-secondary font-medium mb-3">Chairman</p>
               <p className="text-foreground text-sm">
                 Coordinating ASCA's programs and initiatives to strengthen our community connections.
               </p>
