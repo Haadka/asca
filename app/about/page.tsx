@@ -155,10 +155,10 @@ export default function AboutPage() {
           <div className="grid gap-8 md:grid-cols-3">
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
               <div className="relative h-40 w-40 mx-auto mb-4 overflow-hidden rounded-full">
-                <Image src="/pres.png?height=160&width=160" alt="Chairperson" fill className="object-cover" />
+                <Image src="/pres.png?height=160&width=160" alt="Secretary" fill className="object-cover" />
               </div>
               <h3 className="text-xl font-bold mb-1 text-primary">Ahmed Shawky</h3>
-              <p className="text-secondary font-medium mb-3">President</p>
+              <p className="text-secondary font-medium mb-3">Secretary</p>
               <p className="text-foreground text-sm">
                 Leading ASCA's mission to preserve Somaliland culture and support our community in Australia.
               </p>
@@ -174,7 +174,7 @@ export default function AboutPage() {
                 />
               </div>
               <h3 className="text-xl font-bold mb-1 text-primary">Hamse Mohamud Mohamed (Hamse Afyare)</h3>
-              <p className="text-secondary font-medium mb-3">Chairman</p>
+              <p className="text-secondary font-medium mb-3">President</p>
               <p className="text-foreground text-sm">
                 Coordinating ASCA's programs and initiatives to strengthen our community connections.
               </p>
@@ -185,7 +185,7 @@ export default function AboutPage() {
                 <Image src="/sec.png?height=160&width=160" alt="Secretary" fill className="object-cover" />
               </div>
               <h3 className="text-xl font-bold mb-1 text-primary">Hamza Kilas</h3>
-              <p className="text-secondary font-medium mb-3">Secretary</p>
+              <p className="text-secondary font-medium mb-3">Vice President</p>
               <p className="text-foreground text-sm">
                 Managing ASCA's communications and administrative functions to serve our members effectively.
               </p>
