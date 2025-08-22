@@ -152,7 +152,7 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="grid gap-8 md:grid-cols-3">
+          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
               <div className="relative h-40 w-40 mx-auto mb-4 overflow-hidden rounded-full">
                 <Image src="/pres.png?height=160&width=160" alt="Secretary" fill className="object-cover" />
@@ -188,6 +188,17 @@ export default function AboutPage() {
               <p className="text-secondary font-medium mb-3">Vice President</p>
               <p className="text-foreground text-sm">
                 Managing ASCA's communications and administrative functions to serve our members effectively.
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md text-center">
+              <div className="relative h-40 w-40 mx-auto mb-4 overflow-hidden rounded-full">
+                <Image src="/culture.jpg?height=160&width=160" alt="Cultural Ambassador" fill className="object-cover" />
+              </div>
+              <h3 className="text-xl font-bold mb-1 text-primary">Abdi Daud</h3>
+              <p className="text-secondary font-medium mb-3">Cultural Ambassador</p>
+              <p className="text-foreground text-sm">
+                Coordinating Somaliland recognition efforts and promoting cultural understanding between communities.
               </p>
             </div>
           </div>
